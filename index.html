@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Nights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="todo">
+        <div id="search-container" class="container">
+            <h1>Movie Nights</h1>
+            <p><em>List of unseen movies</em></p>
+            <input type="search" class="purple-outline" name="search" id="search" placeholder="Search">
+        </div>
+        <div id="content" class="container">
+            <h3>Movies to watch</h3>
+            <div id="insert">
+                <input type="text" class="purple-outline" name="task" id="task" min-length="2" placeholder="Enter a movie...">
+                <input id="add" class="btn" type="submit" value="Add">
+            </div>
+            <div id="tasks-container">
+                <!-- <div class="task">Batman (2022)<button class="btn">done</button></div> -->
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
